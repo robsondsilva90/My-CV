@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    padding: 50px;
+}
+
+.container li {
+    text-align: left;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.coluna-informacao a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.coluna-informacao h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.container h4 {
+    text-align: left;
+}
+
+.coluna-informacao {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.coluna-informacao hr {
+    margin: 18px 0;
+    border: none;
+    border-bottom: 1px solid yellow;
+}
+
+.coluna-informacao img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    margin-bottom: 18px;
+}
+
+.container section h2 {
+    margin-bottom: 30px;
+}
+
+.container section h3 {
+    margin-top: 0;
+}
+
+.descricao-educacao p {
+    color: #ffff00
+}
+
+.descricao-lingua .porcento {
+    height: 6px;
+    background-color: #727211;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.descricao-lingua .porcento div {
+    height: 6px;
+    background-color: #ffff00;
+}
+
+.descricao-lingua .porcento.ingles div {
+    width: 30%;
+}
+
+.coluna-experiencia section {
+    margin-bottom: 30px;
+}
+
+.coluna-experiencia h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.coluna-experiencia h3 {
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.coluna-experiencia h4 {
+    margin-bottom: 5px;
+}
+
+.coluna-experiencia a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.coluna-experiencia {
+    background-color: white;
+}
+
+.rodape p {
+    text-align: right;
+    margin-top: 80px;
+}
+
+@media (min-width: 992px) {
+    .responsividade {
+        display: flex;
+        
+    }
+
+    .coluna-informacao img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .descricao-educacao p {
+        margin-bottom: 0;
+    }
+}
